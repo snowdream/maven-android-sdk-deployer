@@ -24,7 +24,7 @@
     <!-- The repository server for your android artifacts (e.g. Nexus instance
       in this example) -->
     <repo.id>android.repo</repo.id>
-    <repo.url>http://localhost:8081/nexus/content/repositories/thirdparty</repo.url>
+    <repo.url>http://nxs.bm.afrogleap.com/nexus/content/repositories/android-sdk</repo.url>
     <!-- you need to provide username and password for the server in your
       settings.xml, see documentation for the maven-deploy-plugin -->
 
@@ -38,6 +38,7 @@
     <sdk.extras.admob.path>${sdk.extras.path}/google/admob_ads_sdk</sdk.extras.admob.path>
     <sdk.extras.gcm.path>${sdk.extras.path}/google/gcm</sdk.extras.gcm.path>
     <sdk.extras.google.play.services.path>${sdk.extras.path}/google/google_play_services</sdk.extras.google.play.services.path>
+    <sdk.extras.google.play.services.for.froyo.path>${sdk.extras.path}/google/google_play_services_froyo</sdk.extras.google.play.services.for.froyo.path>
     <sdk.extras.google.play.apk.expansion.path>${sdk.extras.path}/google/play_apk_expansion</sdk.extras.google.play.apk.expansion.path>
     <sdk.extras.google.play.licensing.path>${sdk.extras.path}/google/play_licensing</sdk.extras.google.play.licensing.path>
     <sdk.tools.path>${android.sdk.path}/tools</sdk.tools.path>
